@@ -1,0 +1,166 @@
+@font-face {
+    font-family: 'ostrich_medium';
+    src: url('fonts/ostrichsans-medium-webfont.woff2') format('woff2'),
+         url('fonts/ostrichsans-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ostrich_regular';
+    src: url('fonts/ostrich-regular-webfont.woff2') format('woff2'),
+         url('fonts/ostrich-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ostrich_black';
+    src: url('fonts/ostrichsans-black-webfont.woff2') format('woff2'),
+         url('fonts/ostrichsans-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ostrich_bold';
+    src: url('fonts/ostrichsans-bold-webfont.woff2') format('woff2'),
+         url('fonts/ostrichsans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    
+}
+.container {
+    display: flex;
+
+    
+}
+
+.leftSide .backgroundImage{
+    width: 40vw;
+    height: 100%;
+    position: relative;
+}
+
+.dataBox{
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+    padding: 20px;
+    
+    border: 0;
+    box-shadow: 0px 2px 8px rgb(221, 215, 215) ;
+}
+
+.data input{
+    width: 90%;
+    height: 1.9rem;
+    border: 2px solid #E5E7EB;
+    border-radius: 4px;
+    
+    
+}
+.data{
+    width: 22rem;
+    padding: 15px;
+}
+h1{
+    
+    padding-left: 10px;
+    margin-right: 20rem;
+}
+.rightSide .intro {
+    margin-top: 12vh;
+    padding: 30px 30px 0 30px;
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-bottom:8vh ;
+    font-family: ostrich_black,sans-serif;
+
+}
+
+h1{
+    font-family: ostrich_medium;
+    letter-spacing: 3px;
+    width:30vw;
+    
+}
+.data label {
+    font-family: ostrich_regular;
+    font-size: 20px;
+    letter-spacing: 2px;
+    
+}
+
+button {
+    margin: 30px;
+    background-color: #90af74;
+    width: 13rem;
+    height: 3rem;
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+    font-family: ostrich_black;
+    border-radius: 7px;
+    border-color: white;
+    
+}
+
+#log {
+    margin-left: 30px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-family: ostrich_black,sans-serif;
+   
+}
+span {
+    color: rgb(70, 143, 70);
+}
+
+.leftSide .logo {
+    background-color: black;
+    position: absolute;
+    top:25vh;
+    left:0;
+    width:40vw;
+    background-color: rgba(0,0,0,.4);
+    
+    
+
+    
+}
+.logo img{
+    position: relative;
+    width: 90px;
+    height: auto;
+    left: 14rem;
+    
+    
+
+}
+.logo h1{
+    font-size: 90px;
+    font-family: ostrich_bold;
+    position: absolute;
+    left:18vw;
+    top:2rem
+   
+}
+
+input[type="password"]:invalid {
+    border-color:red ;
+}
+
+input:focus{
+    border: 3px solid blue;
+    box-shadow: 0px 0px 8px rgb(151, 150, 163);
+}

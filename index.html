@@ -7,6 +7,53 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="container">
+        <div class="leftSide">
+            <img class="backgroundImage" src="eberhard-grossgasteiger-XAxEp-NKBiQ-unsplash.jpg" alt="Colorful image by eberhard">
+            <div class="logo">
+                <img src="odin-lined.png">
+                <h1>ODIN</h1>
+            </div>
+        </div>
+        <div class="rightSide">
+            <p class="intro">This is not a real online service! You know you need something
+                like this in your life to help you realize your deepest dreams.
+                <br>Sign up now to get started.
+                <br><br>You know you want to.
+            </p>
+            
+            <form>
+                <fieldset class="dataBox">
+                    <h1>lets do this!</h1>
+                    <div class="data">
+                        <label for="firstName">FIRST NAME</label>
+                        <input type="text" id="firstName" required>
+                    </div>
+                    <div class="data">
+                        <label for="lastName">LAST NAME</label>
+                        <input type="text" id="" required>
+                    </div>
+                    <div class="data">
+                        <label for="email">EMAIL</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="data">
+                        <label for="ph">PHONE NUMBER</label>
+                        <input type="tel" id="ph" pattern="[0-9]{10}"required>
+                    </div>
+                    <div class="data">
+                        <label for="password">PASSWORD</label>
+                        <input type="password" id="password" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" required>
+                    </div>
+                    <div class="data">
+                        <label for="confirmPassword">CONFIRM PASSWORD</label>
+                        <input type="password" id="confirmPassword" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" required>
+                    </div>
+                </fieldset>
+                <button type="submit">Create Account</button>
+                <p id="log">Already have an account? <span>Log in</span></p>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
